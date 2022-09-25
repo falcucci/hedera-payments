@@ -1,1 +1,1 @@
-# maga-coin-payments-api
+# hedera-coin-payments-api
