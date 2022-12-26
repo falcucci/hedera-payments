@@ -14,6 +14,7 @@ To get started with the Hedera Coin Payments API, you will need to clone this re
 git clone https://github.com/falcucci/hedera-coin-payments-api.git
 cd hedera-coin-payments-api
 npm install
+```
 
 Next, you will need to configure the API by setting your Hedera API keys in the .env file.
 
