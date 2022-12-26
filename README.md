@@ -42,17 +42,17 @@ Examples
 
 Here are some examples of how to use the API:
 
-Send a payment
+##### Send a payment
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"to": "3f9a07d83c604dba400d13df4d3456", "amount": 100}' http://localhost:3000/payment
 ```
 
-# Check the balance
+##### Check the balance
 ```bash
 curl http://localhost:3000/balance/3f9a07d83c604dba400d13df4d3456
 ```
 
-# Get the transactions
+##### Get the transactions
 ```bash
 curl http://localhost:3000/transactions/3f9a07d83c604dba400d13df4d3456
 ```
