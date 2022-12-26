@@ -37,9 +37,9 @@ The Hedera Coin Payments API provides the following endpoints:
 
 `POST /payment`: Send a payment to a specific address.
 
-GET /balance/:accountId: Check the balance of a specific account.
+`GET /balance/:accountId`: Check the balance of a specific account.
 
-GET /transactions/:accountId: Retrieve a list of transactions for a specific account.
+`GET /transactions/:accountId`: Retrieve a list of transactions for a specific account.
 
 Examples
 
