@@ -35,7 +35,7 @@ The API will be running at http://localhost:3000.
 
 The Hedera Coin Payments API provides the following endpoints:
 
-POST /payment: Send a payment to a specific address.
+`POST /payment`: Send a payment to a specific address.
 
 GET /balance/:accountId: Check the balance of a specific account.
 
