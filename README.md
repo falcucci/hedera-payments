@@ -42,26 +42,19 @@ Examples
 
 Here are some examples of how to use the API:
 
-```javascript
-const axios = require('axios');
+Send a payment
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"to": "3f9a07d83c604dba400d13df4d3456", "amount": 100}' http://localhost:3000/payment
+```
 
-async function sendPayment() {
-  const response = await axios.post('http://localhost:3000/payment', {
-    to: '3f9a07d83c604dba400d13df4d3456',
-    amount: 100,
-  });
-  console.log(response.data);
-}
+# Check the balance
+```bash
+curl http://localhost:3000/balance/3f9a07d83c604dba400d13df4d3456
+```
 
-async function checkBalance() {
-  const response = await axios.get('http://localhost:3000/balance/3f9a07d83c604dba400d13df4d3456');
-  console.log(response.data);
-}
-
-async function getTransactions() {
-  const response = await axios.get('http://localhost:3000/transactions/3f9a07d83c604dba400d13df4d3456');
-  console.log(response.data);
-}
+# Get the transactions
+```bash
+curl http://localhost:3000/transactions/3f9a07d83c604dba400d13df4d3456
 ```
 
 ### Contributing
